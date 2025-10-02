@@ -2,6 +2,7 @@ body { font-family: "Bodoni Moda", serif;
     color: rgb(0, 99, 99);
     background: rgb(58, 202, 178);
     margin: 0px;
+    margin-bottom: 150px;
 }
 
 header {
@@ -34,10 +35,6 @@ p {
     font-size: 25;
 }
 
-img {
-    height: 200px;
-}
-
 .categoria-videos {
     display: flex;
     overflow-x: auto;
@@ -47,4 +44,18 @@ img {
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+ 
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 8px solid rgb(255, 0, 221);
+}
+
+.categoria h2 {
+    color:rgb(110, 16, 52);
 }
